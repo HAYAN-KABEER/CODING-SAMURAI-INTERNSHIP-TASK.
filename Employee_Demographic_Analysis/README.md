@@ -1,4 +1,4 @@
-# Project 1: Employee Demographic Analysis
+# Project : Employee Demographic Analysis
 
 ## 📌 Objective
 The objective of this project is to understand the demographic distribution of employees in a company.  
