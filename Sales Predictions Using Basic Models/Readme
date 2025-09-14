@@ -1,1 +1,45 @@
+# Sales Predictions Using Basic Models
+
+## Project Objective
+The objective of this project is to **predict future sales based on historical trends**. By analyzing past sales data, we aim to identify patterns and provide actionable insights for better business decision-making.
+
+## Dataset
+The dataset used contains the following key columns:
+- **Date**: Date of the transaction  
+- **Product / SKU**: Name or ID of the product  
+- **Quantity (Qty)**: Number of units sold  
+- **Price / Amount**: Price per unit or total sales amount  
+
+> Note: The dataset may contain missing values which are handled during preprocessing.
+
+## Project Tasks
+1. **Trend Analysis**  
+   - Aggregate monthly sales to identify patterns.  
+   - Calculate **moving averages** to smooth short-term fluctuations.  
+
+2. **Visualization**  
+   - Line chart showing monthly sales trends.  
+   - 3-Month moving average overlay to highlight trend.  
+   - Product-wise and category-wise sales visualizations.  
+   - Cumulative sales and heatmap for deeper insights.  
+
+3. **Forecasting**  
+   - Predict next month’s sales using **basic linear trend models**.  
+   - Provide actionable suggestions based on observed trends (e.g., stock planning, promotions).
+
+## Tools Used
+- **Python**  
+  - Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `statsmodels`  
+- **Excel / Google Sheets** (optional for analysis or visualization)
+
+## Key Insights
+- Top-performing products and categories identified.  
+- Seasonal trends observed for specific months.  
+- Simple linear regression and moving averages provide a basic forecast for next month’s sales.  
+- Recommendations can help in inventory planning, marketing strategies, and sales optimization.
+
+## How to Run
+1. Clone the repository:
+```bash
+git clone <your-repo-link>
 
